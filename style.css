@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+}
+.con {
+    text-align: center;
+    position: absolute;
+    top: 33%;
+    left: 23%;
+    border: 2px solid white;
+    padding: 2%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.con h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+}
+#output {
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: 800;
+}
+#output1 {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: rgb(15, 1, 1);
+}
+input {
+    padding: 10px;
+    width: 60%;
+    margin-top: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.con button {
+    background-color: rgb(188, 44, 44);
+    padding: 6px;
+    width: 15vh;
+    margin-top: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
