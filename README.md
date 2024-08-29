@@ -1,0 +1,2 @@
+# GuessingRandomNumberGame
+Javascript Second Project
